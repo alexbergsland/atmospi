@@ -145,7 +145,7 @@ connected in your config.py file (see below).
     ```
 
 3) Insert rows into the Devices database to describe each of your sensors. For
-   example:
+   example (where GPIO22 is used):
 
     ```
     INSERT INTO Devices (DeviceID, Type, SerialID, Label) VALUES (NULL, 'dht22', '22', 'Upstairs DHT22');
