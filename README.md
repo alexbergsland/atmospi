@@ -126,7 +126,7 @@ reading, so you need to do that manually, by following the instructions below.
 Also note that you can connect as many DHT sensors to your Pi as you'd like,
 but each requires its own data pin. Unlike the DS18B20 sensors, Atmospi cannot
 automatically detect DHT sensors, so you need to specify which ones are
-connected in your config.py file (see below).
+connected in your Devices database table (see step 3 below).
 
 1) Install python-dev.
 
